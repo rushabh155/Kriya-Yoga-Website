@@ -1,0 +1,533 @@
+@media screen and (max-width:768px) {
+  /* body{
+    overflow-x: hidden;
+  } */
+
+    .navbar{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .navbar .container .collapse .navbar-nav li .navbar-brand{
+        
+        border: 1px solid black;
+    }
+   
+    .light-green-section .container #carouselExampleFade .carousel-item {
+        /* border: 1px solid black; */
+        max-height: 350px;
+    }
+
+    .light-green-section .container #carouselExampleFade .carousel-item img{
+        height: 350px;
+    }
+    .content-overlay .content-text h2{
+        font-size: 30px;
+    }
+
+    .content-overlay .content-text h1{
+        font-size: 30px;
+    }
+   
+    .carousel-item .content-overlay .content-text{
+        align-items: center;
+       
+    }
+
+    .carousel-item .content-overlay #c2{
+       /* border: 1px solid black; */
+       width: 80%;
+    }
+
+    .carousel-item .content-overlay #c2 a{
+        padding: 8px;
+       
+    }
+
+    .carousel-item .content-overlay #c3 h2{
+        font-size: 30px;
+    }
+
+    .carousel-item .content-overlay #c3 h1{
+        font-size: 30px;
+    }
+
+    .carousel-item .content-overlay #c3 a{
+        padding: 8px;
+    }
+
+    #briefdesc{
+        width: 100%;
+        overflow: hidden;
+       
+    }
+
+    #briefdesc .container .row .col{
+       
+       /* align-items: center; */
+      /* overflow: hidden; */
+      
+    }
+
+    /* #briefdesc .container .row .col .card .card-body{
+    
+    } */
+
+      
+   
+    #briefdesc .container .row-cols-4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      #briefdesc .container .row-cols-4 > div {
+        flex: 0 0 calc(50% -20px); /* Adjust as needed */
+        max-width: calc(50% - 20px); /* Adjust as needed */
+        margin:auto; /* Adjust as needed */
+      }
+
+
+      .row .col .card .card-body{
+        /* border: 1px solid black; */
+        /* margin-left: 0%; */
+        width: 320px;
+        padding-right: 90px;
+        overflow: hidden;
+       
+      }
+
+/* ----------------------------------------------------------------------------- */
+
+      /* your life of yoga with KRIYA CODE  */
+   
+        .image-content-container {
+            position: relative;
+        }
+      
+        .image-content-container img {
+            max-width: 100%;
+            height: 900px;
+            margin-right: 0; /* Remove right margin */
+        }
+      
+        .image-content-container .content {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            max-width: 80%; /* Adjust width for content */
+        }
+        .image-content-container .content> .button1, .button2{
+            margin-top: 20px;
+        }
+     
+
+ /* ------------------------------------------------------------------ */
+   
+ #recentcards{
+    height: auto;
+ }
+ #recentcards #recentp {
+    width: 100%; /* Set the width to full for smaller screens */
+  }
+
+  .card-body {
+    width: 100%; /* Adjust card width to full for smaller screens */
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-img-overlay a {
+    margin-left: 40px; /* Decrease margin for date link */
+    margin-top: 120px; /* Decrease margin for date link */
+    font-size: 12px; /* Decrease font size for date link */
+   display: block;
+   position: absolute;
+
+  }
+
+  .card-img-overlay button {
+    margin-left: 130px; /* Decrease margin for conversation button */
+    margin-top: 70px; /* Decrease margin for conversation button */
+   position: absolute;
+
+  }
+
+  .card-body:hover .card-img-overlay button {
+    transform: translateX(100%); /* Adjust hover animation for smaller screens */
+  }
+
+  #recentcards .card-body:hover .card-image {
+    width: 100%; /* Adjust image width on hover for smaller screens */
+  }
+
+  /* ------------------------------------------------------------------------------ */
+
+  #whykriya{
+
+    height:auto;
+    padding-bottom: 20px;
+  }
+
+  /* #whykriya .row{
+    
+    margin-left: 10px;
+  }
+  #whykriya .col{
+      width: 100%;
+      align-items: center;
+      margin-top: 15px;
+      margin-left: 20%;
+    }
+
+    #whykriya .card-body {
+      width:100%; 
+   
+      display: block;
+      overflow: hidden;
+    }
+  
+    #whykriya #whyimg1{
+       
+        width: 30px;
+        margin: auto;
+    }
+    #whykriya #whyimg2{
+       
+        width: 30px;
+        margin: auto;
+       
+      
+    }
+
+    #whykriya #whyimg3{
+       
+        width: 30px;
+        margin-left: 10%;
+       
+    }
+
+    #whykriya #whyimg1 img{
+        margin-top: 20px;
+       
+    }
+
+    #whykriya #whyimg2 img{
+        margin-top: 20px;
+        
+    }
+
+    #whykriya #whyimg3 img{
+        margin-top: 20px;
+         
+    } */
+
+   
+    /* #whykriya  #whyimg1{
+      
+      border: 1px solid black;
+        align-items: end;
+        padding-right: 20%;
+
+    } */
+
+    /* .row.row-col-6 .col {
+        width: 100%;
+      }
+  
+      .row.row-col-6 .col:nth-child(odd) {
+        margin-top: 20px; 
+        align-items: end;
+      }
+  
+      .row.row-col-6 .col:nth-child(even) {
+        margin-top: 20px; 
+        padding-left: 5px; 
+        padding-right: 5px; 
+      }
+  
+      
+      .row.row-col-6 .card-body {
+        width: 100%;
+      } */
+
+      #whykriya .card {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    #whykriya.card-title {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    #whykriya .custom-hr {
+        width: 80%; /* Adjust width of the horizontal rule */
+    }
+    #whykriya.row.row-col-6 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      #whykriya.row.row-col-6 > .col {
+        flex: 0 0 100%; /* Make each column take full width on smaller screens */
+        margin-bottom: 15px; /* Add some spacing between stacked columns */
+      }
+
+      .row.row-col-6 >#whyimg1,#whyimg2, #whyimg3{
+        margin-left: 40%;
+        /* border: 1px solid black; */
+      }
+
+      .row.row-col-6 > #whyimg1 img,#whyimg2 img,#whyimg3 img{
+       height: 50px;
+       width: 50px;
+      }
+
+      .row.row-col-6>  #mycont1 .card-text{
+        /* border: 1px solid black; */
+      
+        overflow: hidden;
+        justify-content: center;
+    
+      }
+
+
+      /* ------------------------------------------------------------------------------- */
+
+      #featured{
+        height: auto;
+  
+      }
+
+      /* ------------------------------------------------------------------------------- */
+
+      #gallery{
+        /* height: 1000px; */
+        height: auto;
+        padding-bottom: 40px;
+        overflow: hidden;
+        margin-right: 30px;
+      }
+      
+       /* #gallery #galleryimg4{ */
+       
+        /* /* overflow: hidden; */
+        /* margin-top: 20px; */ */
+        /* border: 1px solid black; */
+        /* top: 20%; */
+       /* } */
+
+       #galleryimg1{
+        width: 50%;
+       }
+   
+       #memories{
+        width: 50%;
+        /* border: 1px solid black; */
+        margin: 20px;
+       }
+
+
+       /* -------------------------------------------------- */
+
+       #ourevents{
+        height: 1400px;
+        overflow: hidden;
+        margin: auto;
+       }
+
+       #ourevents.p1 {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        margin-top: 8px; /* Adjust margin for smaller screens */
+    }
+
+    #ourevents.p2 {
+        font-size: 16px; /* Reduce font size for smaller screens */
+        margin-top: 3px; /* Adjust margin for smaller screens */
+    }
+
+    #ourevents.text-center {
+        width: 100%; /* Make the text center class full width */
+        margin: auto; /* Center the text within the full width */
+    }
+
+    #ourevents .container .row-col-2 {
+        flex-direction: column; /* Change row to column layout */
+        align-items: center;
+       
+    }
+
+    #ourevents.col {
+        margin-bottom: 20px; /* Add spacing between columns */
+        text-align: center;
+    }
+
+    #ourevents.hover01 {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    #ourevents.hover01 figure img {
+        max-width: 100%; /* Make the image responsive */
+        transition: transform 0.5s;
+    }
+
+    #ourevents.hover01:hover figure img {
+        transform: scale(1.1); /* Increase image size on hover */
+    }
+
+
+    /* #ourevents.custom-center {
+      display: flex;
+      justify-content: center;
+  } */
+
+  
+
+
+       /* -------------------------------------------------- */
+
+       #aboutkriya{
+        height: auto;
+        /* overflow: hidden; */
+       }
+       #aboutkriya .container h2{
+        text-align: center;
+       }
+       #aboutkriya .container .row .col .aboutkriyaimg{
+        align-items: center;
+        margin: auto;
+       height: 500px;
+       width: 500px;
+       }
+
+        .row-cols-1 .col{
+          max-width: 100%;
+         
+       }
+
+       #aboutkriya .row-cols-1 .card{
+        max-width: 100%;
+        margin-bottom: 15px;
+       }
+
+       #aboutkriya .container .card .col-md-4 img{
+        /* border: 1px solid black; */
+        height: 40px;
+        width: 40px;
+        /* margin-top: 0  ; */
+        max-width: 100%;
+       }
+
+       #aboutkriya .container .card .col-md-8{
+        /* border: 1px solid black; */
+        max-width: 100%;
+        margin-bottom: 20px;
+       }
+
+       #aboutkriya .container h5{
+        text-align: center;
+        /* margin-top: 30px; */
+       }
+
+
+       /* ------------------------------------------------------------ */
+
+       #specialteam{
+        height: auto;
+        /* overflow: hidden; */
+        padding-bottom: 50px;
+       }
+
+       #specialteam .container .card .card-body{
+        
+       }
+
+       #specialteam .card {
+        width: 50%; /* Make the cards take full width */
+        height: 600px; /* Adjust height automatically */
+        margin: auto;
+    }
+
+    #specialteam .container .row-cols-4 .col {
+      flex-basis: 50%; /* Two cards in one row */
+      max-width: 50%;
+  }
+
+    /* ---------------------------------- */
+
+    #specialteam2 .container{
+      height: auto;
+    }
+
+    #specialteam2 .container .borderinternal{
+      height: 330px;
+    
+    }
+
+    #specialteam2 .container .btn{
+    
+    }
+
+/* ------------------------------------------------------------------------------------------ */
+   
+    #completehealth{
+      height: auto;
+      padding-bottom: 30px;
+    }
+
+    #completehealth h2 {
+      padding-top: 30px; /* Adjust padding for smaller screens */
+      text-align: center;
+    }
+  
+    #completehealth p {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+      padding-right: 20px; /* Adjust padding for smaller screens */
+      padding-top: 20px; /* Adjust padding for smaller screens */
+      font-size: 13px; /* Adjust font size for smaller screens */
+    }
+  
+    #completehealth .container .row-col-2{
+      flex-direction: column;
+    } 
+
+    #completehealth .container .row-col-2 .col{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #completehealth .container .row-col-2 .col .imgcol,
+    #completehealth .container .row-col-2 .col .imgcol2 {
+    width: 100%; /* Make images fill the column width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .custom-row-cols {
+    justify-content: center; /* Center columns horizontally */
+  }
+
+  #completehealth .container .p-4 {
+    padding: 15px; /* Add padding to the paragraph */
+  }
+
+  #completehealth .container .btn {
+    margin: 20px auto; /* Center the button */
+  }
+
+
+    /*  */
+
+    #pickyogapack  .col-md-3 {
+      flex: 0 0 100%; /* One card per row on small screens */
+      max-width: 100%;
+      margin: auto;
+    }
+
+   
+}
+
